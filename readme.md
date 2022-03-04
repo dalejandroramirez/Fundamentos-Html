@@ -12,10 +12,12 @@
 
 ## HTML: hypertext Markup Languege
 
-Existen etiquetas de contenido y etiquetas contenedoras.
+    Existen etiquetas de contenido y etiquetas contenedoras.
 
-### Etiquetas contenedoras:
-Son las encargadas para de 
+    ### Etiquetas contenedoras:
+    Son las encargadas para encapsular contenido
+
+
 ![Image text](imagenes/Etiquetascontenedoras.png)
 
 ### Tamaño máximo recomendado para una imágen: 70 kb
@@ -33,15 +35,20 @@ Son las encargadas para de
 
 ## Atributos de la etiqueta img
 
-La etiqueta img cuenta con dos atributos, el atributo “src” y el segundo atributo es “alt”. Ambos son importantes.
+    La etiqueta img cuenta con dos atributos, el atributo “src” y el segundo atributo es “alt”. Ambos son importantes.
 
- El atributo de “src” es para mostrar en dónde se encuentra la imagen que vamos a incrustar. Las imágenes se pueden obtener de alguna carpeta o una URL que obtengamos de internet.
+El atributo de “src” es para mostrar en dónde se encuentra la imagen que vamos a incrustar. Las imágenes se pueden obtener de alguna carpeta o una URL que obtengamos de internet.
+<ul>
+    <li>En caso de que el nombre de tu imagen lleve algún espacio, deberás sustituir ese espacio con un guion o guion medio. Caso contrario, el navegador no podrá reconocer la ubicación.
+    </li>
+</ul>
 
- - En caso de que el nombre de tu imagen lleve algún espacio, deberás sustituir ese espacio con un guion o guion medio. Caso contrario, el navegador no podrá reconocer la ubicación.
-
- alt sirve para agregar una descripción a nuestra imagen. Esto es útil por cuestiones de SEO y también para accesibilidad (por ejemplo para personas con visión reducida).
-
-- < img/>, a diferencia de la gran mayoría de las demás etiquetas de HMTL, no necesita una etiqueta de cierre.
+alt sirve para agregar una descripción a nuestra imagen. Esto es útil por cuestiones de SEO y también para accesibilidad (por ejemplo para personas con visión reducida).
+<ul>
+    <li>
+        < img/>, a diferencia de la gran mayoría de las demás etiquetas de HMTL, no necesita una etiqueta de cierre.
+     </li>
+</ul>
 
 - https://tinypng.com/ : convierte las imagenes en imagenes menos pesadas
 
@@ -54,9 +61,12 @@ La etiqueta img cuenta con dos atributos, el atributo “src” y el segundo atr
 ![Image text ](imagenes/video3.png)
 
 
-<h1>        source<h1/>
+<h1>         source<h1/>
 
 ![Image text ](imagenes/video4.png)
 
 
+## ¿Como generar un formularios?
+
+![Image text ](imagenes/formularios1.webp)
 
