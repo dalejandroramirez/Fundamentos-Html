@@ -1,0 +1,31 @@
+.main-nav{
+    margin-top: 10px;
+    list-style: none;
+    padding-left: 0%;
+}
+
+.main-nav__item{
+    display: inline-block ;  
+}
+
+.main-nav__item a{
+    color: blanchedalmond;
+    padding: 5px;
+    border-radius: 10px;
+    text-decoration: none;
+    background-color: red;
+}
+
+.main-nav__item a:hover {
+    color: black;
+}
+
+.main-nav__item a:active {
+    color: rgb(10, 173, 5);
+}
+
+/* seudoelementos */
+
+.main-nav__item a::before{
+    content: " | "    ;
+}
