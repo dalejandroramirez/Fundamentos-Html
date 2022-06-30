@@ -1,0 +1,49 @@
+
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+html{
+    font-size: 62.5%;
+}
+main {
+    background-color:blue;
+    width: 100% ;
+    height:max-content;
+}
+.navigation{
+    flex-wrap:wrap-reverse;
+    background-color: yellow;
+    flex-basis: content;
+}
+
+header {
+    background-color:red;
+    height: 5rem;
+}
+.contenedor{
+    background-color:rosybrown;
+    display: flex;
+    flex-wrap: wrap;
+}
+.content{
+    background-color: black;
+    height: 30rem;
+    width: 96%;
+    margin: 2%;
+    
+}
+.sidebar{
+    background-color: blueviolet;
+    height: 30rem;
+    width: 96%;
+    margin: 2%;
+}
+footer{
+    background-color: chartreuse;
+    width: 100%;
+    height: 3rem;
+}
+
+

@@ -1,0 +1,15 @@
+
+/* todos los parrafos que tienen vecino
+mas proximo a h2. donde proximo es que 
+es el inmediato ANTERIOR */
+h2 + p {
+    color: brown;
+}
+/* general sibling 
+se aplica a todos los hermanos en 
+el mismo nivel */
+
+h2 ~ p {
+    color: blue;
+}
+
